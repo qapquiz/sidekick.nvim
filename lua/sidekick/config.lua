@@ -119,6 +119,7 @@ local defaults = {
         env = { OPENCODE_THEME = "system" },
       },
       qwen = { cmd = { "qwen" } },
+      amp = { cmd = { "amp", "--ide" } },
     },
     --- Add custom context. See `lua/sidekick/context/init.lua`
     ---@type table<string, sidekick.context.Fn>
